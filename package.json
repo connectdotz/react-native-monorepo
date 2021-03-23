@@ -1,0 +1,15 @@
+{
+  "name": "react-native-monorepo",
+  "version": "1.0.0",
+  "description": "sample repo for vscode-react-native issue",
+  "main": "index.js",
+  "author": "connectdotz <vsun@connectdotz.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  }
+}
